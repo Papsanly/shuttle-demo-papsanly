@@ -12,3 +12,4 @@ shuttle-shared-db = { version = "0.40.0", features = ["postgres", "sqlx"] }
 sqlx = "0.7.3"
 tokio = "1.28.2"
 tracing = "0.1.40"
+url = "2.5.0"
