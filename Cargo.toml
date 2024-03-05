@@ -4,7 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-axum = "0.7.3"
+axum = { version = "0.7.3", features = ["macros"] }
+nanoid = "0.4.0"
 shuttle-axum = "0.40.0"
 shuttle-runtime = "0.40.0"
 shuttle-shared-db = { version = "0.40.0", features = ["postgres", "sqlx"] }
